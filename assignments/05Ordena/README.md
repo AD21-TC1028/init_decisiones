@@ -8,9 +8,9 @@ Modifica el programa que se encuentra en la carpeta `src` que se llama
 
 def main():
     # Escribe el código adecuado para completar el programa
-    x = int(input("Ingresa el primer número: "))
-    y = int(input("Ingresa el segundo número: "))
-    z = int(input("Ingresa el tercer número: "))
+    x = int(input("Ingresa el primer número:"))
+    y = int(input("Ingresa el segundo número:"))
+    z = int(input("Ingresa el tercer número:"))
 
 
 if __name__ == '__main__':
@@ -36,9 +36,9 @@ Los números de menor a mayor uno por renglón.
 Ejemplo 1    
 
 ```plaintext
-Ingresa el primer número: 5
-Ingresa el segundo número: 8
-Ingresa el tercer número: -3
+Ingresa el primer número:5
+Ingresa el segundo número:8
+Ingresa el tercer número:-3
 -3
 5
 8
@@ -46,9 +46,9 @@ Ingresa el tercer número: -3
 Ejemplo 2
 
 ```plaintext
-Ingresa el primer número: 5
-Ingresa el segundo número: 1
-Ingresa el tercer número: 12
+Ingresa el primer número:5
+Ingresa el segundo número:1
+Ingresa el tercer número:12
 1
 5
 12

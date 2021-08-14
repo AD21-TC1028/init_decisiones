@@ -8,8 +8,8 @@ Modifica el programa que se encuentra en la carpeta `src` que se llama
 
 def main():
     # Escribe el código adecuado para completar el programa
-    peso = float(input("Peso en kg: "))
-    altura = float(input("Altura en m: "))
+    peso = float(input("Peso en kg:"))
+    altura = float(input("Altura en m:"))
 
 if __name__ == '__main__':
     main()
@@ -45,15 +45,15 @@ Debes de verificar que tanto el peso como la altura sean mayores a 0, en caso de
 Ejemplo 1    
 
 ```plaintext
-Peso en kg: 53
-Altura en m: 1.66
+Peso en kg:53
+Altura en m:1.66
 PESO BAJO
 ```
 Ejemplo 2
 
 ```plaintext
-Peso en kg: 65
-Altura en m: 0
+Peso en kg:65
+Altura en m:0
 Revisa tus datos, alguno de ellos es erróneo.
 ```
 

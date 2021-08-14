@@ -9,7 +9,7 @@ Modifica el programa que se encuentra en la carpeta `src` que se llama
 
 def main():
   # Escribe tu código abajo de esta línea
-  pass
+  c = int(input("Introduce los cm:"))
 
 if __name__ == '__main__':
     main()
@@ -29,22 +29,22 @@ Escribe un programa que pida una distancia en centímetros y que escriba esa dis
 Estos son algunos ejemplos de ejecución del programa. La salida del programa debe de ser exactamente de la siguiente forma:
 
 ```plaintext
-Introduce los cm: 100
+Introduce los cm:100
 1 m
 
-Introduce los cm: 240005
+Introduce los cm:240005
 2 km
 400 m
 5 cm
 
-Introduce los cm: 67
+Introduce los cm:67
 67 cm
 
-Introduce los cm: 300004
+Introduce los cm:300004
 3 km
 4 cm
 
-Introduce los cm: 1200500
+Introduce los cm:1200500
 12 km
 5 m
 ```

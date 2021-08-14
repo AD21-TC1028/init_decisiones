@@ -11,11 +11,11 @@ input_values = [
 
 # List of lists, where each inner list has all the output/prints that end in the terminal
 output_values = [
-    ["Año: ", True],
-    ["Año: ", False],
-    ["Año: ", False],
-    ["Año: ", True],
-    ["Año: ", "Dato incorrecto"]
+    ["Año:", True],
+    ["Año:", False],
+    ["Año:", False],
+    ["Año:", True],
+    ["Año:", "Dato incorrecto"]
     ]
 
 # List of hints for each test, in case of an error

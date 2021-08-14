@@ -7,11 +7,12 @@ Modifica el programa que se encuentra en la carpeta `src` que se llama
 ```python
 
 def main():
-    edad = int(input("Ingresa tu edad: "))
+    edad = int(input("Ingresa tu edad:"))
     # Escribe el código adecuado para completar el programa
     # Para pedir el dato de la idetificación oficial emplea este mensaje:
-    # "¿Tienes identificación oficial? (s/n): "
-    
+    # "¿Tienes identificación oficial?(s/n):"
+    #La respuesta a tien identificación oficila puede ser mayúscula o minúscula
+    # Debes de checar primero que la edad sea un número mayor a cero    
 
 
 if __name__ == '__main__':
@@ -39,28 +40,28 @@ La salida del programa debe de ser exactamente de la siguiente forma:
 Ejemplo 1
 
 ```plaintext
-Ingresa tu edad: 19
-¿Tienes identificación oficial? (s/n): s
+Ingresa tu edad:19
+¿Tienes identificación oficial?(s/n):s
 Trámite de licencia concedido
 ```
 Ejemplo 2
 
 ```plaintext
-Ingresa tu edad: 19
-¿Tienes identificación oficial? (s/n): n
+Ingresa tu edad:19
+¿Tienes identificación oficial?(s/n):n
 No cumples requisitos
 ```
 
 Ejemplo 3
 ```plaintext
-Ingresa tu edad: 12
+Ingresa tu edad:12
 No cumples requisitos
 ```
 
 Ejemplo 4
 ```plaintext
 Ingresa tu edad: 20
-¿Tienes identificación oficial? (s/n): g
+¿Tienes identificación oficial?(s/n):g
 Respuesta incorrecta
 ```
 

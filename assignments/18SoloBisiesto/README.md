@@ -8,7 +8,7 @@ Modifica el programa que se encuentra en la carpeta `src` que se llama
 
 def main():
     # Escribe el código adecuado para completar el programa
-    year = int(input("Año: "))
+    year = int(input("Año:"))
 
 if __name__ == '__main__':
     main()
@@ -38,28 +38,28 @@ Si el dato es 0 o menor, deberá mostrar el siguiente mensaje: **Dato incorrecto
 Ejemplo 1    
 
 ```plaintext
-Año: 2012
+Año:2012
 True
 ```
 
 Ejemplo 2
 
 ```plaintext
-Año: 2100
+Año:2100
 False
 ```
 
 Ejemplo 3
 
 ```plaintext
-Año: 1995
+Año:1995
 False
 ```
 
 Ejemplo 4
 
 ```plaintext
-Año: 0
+Año:0
 Dato incorrecto
 ```
 
