@@ -1,4 +1,6 @@
-
+'''
+Comentarios
+'''
 def main():
     edad = int(input("Ingresa tu edad:"))
     
