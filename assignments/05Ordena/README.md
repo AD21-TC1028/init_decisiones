@@ -23,6 +23,8 @@ Recuerda, la línea `# Escribe el código adecuado para completar el programa` e
 
 Realiza un programa que ordena en forma ascendente tres números enteros x, y, z.
 
+**NOTA** No repitas números
+
 **NOTA:** NO puedes utilizar la función incorporada de Python: sort(), debes hacerlo con condicionales.
 
 **Entradas**  
